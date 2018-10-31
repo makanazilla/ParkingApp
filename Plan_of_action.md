@@ -28,6 +28,16 @@
             var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 
             var d = R * c;
+  
+   * available spots
+    * return spots where distance is <= user radius input and
+    * spots where reserved = false
+    * allow for reserve
+    * if reserved remove from available spots
+    
+   * reserved
+    * if reserved, show reserved
+    * change reserved to true
 
 4. Django routing
   * initial app: local/parkingapp
